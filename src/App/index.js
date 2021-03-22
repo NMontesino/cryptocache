@@ -1,9 +1,16 @@
+import styled, { css } from 'styled-components'
+
+import WelcomeMessage from './WelcomeMessage'
+
 import './App.css'
 
-const App = () =>
+
+const App = (props) =>
 {
   return (
-    <div>Hello World</div>
+    <div>
+      <WelcomeMessage />
+    </div>
   )
 }
 
