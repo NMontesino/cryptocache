@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components'
 
+import AppLayout from './AppLayout'
 import WelcomeMessage from './WelcomeMessage'
 
 import './App.css'
@@ -8,9 +9,9 @@ import './App.css'
 const App = (props) =>
 {
   return (
-    <div>
+    <AppLayout>
       <WelcomeMessage />
-    </div>
+    </AppLayout>
   )
 }
 
